@@ -12,7 +12,12 @@ public class Challenge extends Head {
 	public Challenge(Roomba roomba) {
 		super(roomba);
 	}
-
+	/**
+	 * complete the MAZE
+	 * Hint: use bump sensors
+	 */
+	
+	
 	public void initialize() {
 
 	}

@@ -14,9 +14,13 @@ public class Challenge extends Head {
 	}
 	/**
 	 * Without touching the wall reach the endZone
+	 * use sleep an driveDirect 
 	 */
 	public void initialize() {
-
+		//write code here!
+		
+		
+		
 	}
 
 	public void loop() {
