@@ -18,19 +18,42 @@ public class Challenge extends Head {
 	 */
 
 	public void initialize() {
+		driveDirect(800,800);
+		sleep(700);
+driveDirect(0,180);
+sleep(1400);
+driveDirect(1600,1600);
+sleep(2900);
+driveDirect(180,0);
+sleep(1400);
+driveDirect(800,800);
+sleep(1300);
+driveDirect(180,0);
+sleep(1400);
+driveDirect(1600,1600);
+sleep(1000);
+driveDirect(0,180);
+sleep(1400);
+driveDirect(800,800);
+sleep(700);
+driveDirect(0,180);
+sleep(1400);
+driveDirect(800,800);
+sleep(600);
+driveDirect(180,0);
+sleep(1400);
+driveDirect(800,800);
+sleep(400);
+driveDirect(0,180);
+sleep(1400);
+driveDirect(800,800);
+sleep(1000);
 
-		if (isBumpedLeft() == true) {
-			driveDirect(0, 900);
-			sleep(5000);
-		} else {
-			driveDirect(300, 300);
-			sleep(1);
 
-		}
 
 	}
 
 	public void loop() {
-
+		
 	}
 }
